@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="x-ua-compatible" content="IE=9">
+    <meta charset="UTF-8">
+    <title>Reservip test</title>
+    <script src="reservip.js"></script>
+  </head>
+  <body>
+    <div>
+      <div>Token goes here</div>
+      <form onsubmit="reservip_submit_token(this); return false" id="tokenform">
+	<input type="password" name="password" placeholder="secret password">
+	<input type="submit" value="RSVP">
+      </form>
+      <div id="message"></div>
+    </div>
+    <div>
+    </div>
+  </body>
+</html>
